@@ -20,5 +20,8 @@ public class Calcul {
         return this.x * this.y ;
     }
 
+    public double division(){
+        return this.x /this.y ;
+    }
 
 }

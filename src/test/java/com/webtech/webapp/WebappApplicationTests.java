@@ -27,6 +27,7 @@ class WebappApplicationTests {
 		cal2.setX(15);
 		cal2.setY(5);
 		assertEquals(cal2.soustraction(),10);
+		
 	}
 	@Test
 	public void multiplication() {
@@ -35,6 +36,5 @@ class WebappApplicationTests {
 		cal2.setY(5);
 		assertEquals(cal2.multiplication(),10);
 	}
-
 
 }
