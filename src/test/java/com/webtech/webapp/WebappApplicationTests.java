@@ -28,6 +28,13 @@ class WebappApplicationTests {
 		cal2.setY(5);
 		assertEquals(cal2.soustraction(),10);
 	}
+	@Test
+	public void multiplication() {
+		Calcul cal2= new Calcul();
+		cal2.setX(2);
+		cal2.setY(5);
+		assertEquals(cal2.multiplication(),10);
+	}
 
 
 }
