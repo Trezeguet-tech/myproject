@@ -21,4 +21,13 @@ class WebappApplicationTests {
 		assertEquals(cal1.addition(),10);
 	}
 
+	@Test
+	public void soustraction() {
+		Calcul cal2= new Calcul();
+		cal2.setX(15);
+		cal2.setY(5);
+		assertEquals(cal2.soustraction(),10);
+	}
+
+
 }
