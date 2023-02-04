@@ -1,4 +1,5 @@
 # myproject
+# version 1.1
 echo "# myproject" >> README.md
 git init
 git add README.md
