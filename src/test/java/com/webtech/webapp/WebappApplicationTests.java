@@ -37,4 +37,12 @@ class WebappApplicationTests {
 		assertEquals(cal2.multiplication(),10);
 	}
 
+	@Test
+	public void division() {
+		Calcul cal2= new Calcul();
+		cal2.setX(50);
+		cal2.setY(5);
+		assertEquals(cal2.division(),10);
+	}
+
 }
